@@ -1,6 +1,11 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+}
 .App {
   text-align: center;
 }
+
+font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 
 .App-logo {
   height: 40vmin;
