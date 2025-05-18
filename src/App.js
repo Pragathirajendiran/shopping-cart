@@ -12,6 +12,7 @@ function App() {
   const addToCart = (product) => {
     setCartItems((prev) => [...prev, product]);
   };
+  
 
   const removeFromCart = (indexToRemove) => {
     setCartItems((prev) => prev.filter((_, index) => index !== indexToRemove));
