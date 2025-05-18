@@ -14,7 +14,7 @@ function Navbar({ cartCount }) {
       }}
     >
       <Link to="/" style={{ color: "white", textDecoration: "none" }}>
-        Shopping Applications Created by pragathi
+        Shopping Applications
       </Link>
       <Link to="/cart" style={{ color: "white", textDecoration: "none" }}>
         🛒 Cart ({cartCount})

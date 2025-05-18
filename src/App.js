@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
           path="/cart"
           element={
             <Cart cartItems={cartItems} removeFromCart={removeFromCart} />
-          } // Ensure this prop is passed correctly
+          }
         />
+        <Route path="/Checkout" element={<Checkout />} />
       </Routes>
     </Router>
   );

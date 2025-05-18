@@ -17,10 +17,8 @@ const Cart = ({ cartItems, removeFromCart }) => {
   const subtotal = cartItems.reduce((sum, item) => sum + item.price, 0);
 
   const handleCheckout = () => {
-    alert("Proceeding to checkout...");
-    // navigate("/checkout"); // Uncomment to enable navigation to checkout page
+    navigate("/checkout");
   };
-
   return (
     <Box sx={{ p: 6 }}>
       <Typography variant="h4" gutterBottom>
