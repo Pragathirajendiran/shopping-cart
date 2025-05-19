@@ -6,6 +6,7 @@ import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 function App() {
   const [cartItems, setCartItems] = useState([]);
 
